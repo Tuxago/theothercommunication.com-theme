@@ -9,7 +9,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand page-scroll" href="#page-top">{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</a>
+            <a class="navbar-brand page-scroll" href="#page-top">
+                <div>{{ with .Site.Params.navigation.brand }}{{ . }}{{ end }}</div>
+                <div style="font-size: .5em; font-family: Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif; text-transform: uppercase;">{{ with .Site.Params.navigation.brandbyline }}{{ . }}{{ end }}</div>
+            </a>
         </div>
         {{ "<!-- Collect the nav links, forms, and other content for toggling -->" | safeHTML }}
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -22,9 +25,6 @@
                 </li>
                 <li>
                     <a class="page-scroll" href="#portfolio">{{ with .Site.Params.navigation.portfolio }}{{ . }}{{ end }}</a>
-                </li>
-                <li>
-                    <a class="page-scroll" href="#about">{{ with .Site.Params.navigation.about }}{{ . }}{{ end }}</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#team">{{ with .Site.Params.navigation.team }}{{ . }}{{ end }}</a>
