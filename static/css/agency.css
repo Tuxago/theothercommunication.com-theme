@@ -54,6 +54,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #39163B;
 }
 
 .img-centered {
@@ -164,6 +165,10 @@ fieldset[disabled] .btn-xl.active {
     background-color: #fed136;
 }
 
+.btn-intro {
+    color: #39163b;
+}
+
 .btn-xl .badge {
     color: #fed136;
     background-color: #fff;
@@ -209,7 +214,7 @@ fieldset[disabled] .btn-xl.active {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     letter-spacing: 1px;
-    color: #fff;
+    color: #fed136;
 }
 
 .navbar-default .nav li a:hover,
@@ -265,13 +270,10 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/logo-square-web.svg);
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 600px 800px;
 }
 
 header .intro-text {
@@ -318,6 +320,7 @@ header .intro-text .intro-heading {
         font-size: 50px;
         font-weight: 700;
         line-height: 75px;
+        color: #F36C18;
     }
 }
 
