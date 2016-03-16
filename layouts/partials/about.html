@@ -12,15 +12,9 @@
                 <ul class="timeline">
                     {{ range $i, $e := .Site.Params.about.events }}
                     <li {{ if (not (modBool $i 2)) }}class="timeline-inverted" {{ end }}>
-						{{ if eq $i 0 }}
-	                        <div class="timeline-image">
-	                            <h4>{{ with .circletext }}{{ . | markdownify }}{{ end }}</h4>
-	                        </div>
-						{{ else }}
                         <div class="timeline-image">
                             <img class="img-circle img-responsive" src="img/about/{{ .img }}" alt="">
                         </div>
-						{{ end}}
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>{{ .date }}</h4>
