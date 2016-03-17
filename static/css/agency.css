@@ -281,8 +281,7 @@ header {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 600px 800px;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    margin-bottom: 200px;
 }
 
 header .intro-text {
@@ -296,7 +295,6 @@ header .intro-text .intro-lead-in {
     font-family: "Raleway","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
     line-height: 22px;
-	width: 50%;
     color: #CCCCCC;
 }
 
@@ -307,7 +305,6 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
-	width: 50%;
 }
 
 @media(min-width:768px) {
